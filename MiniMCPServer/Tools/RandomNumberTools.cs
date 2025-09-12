@@ -5,6 +5,8 @@ using ModelContextProtocol.Server;
 /// Sample MCP tools for demonstration purposes.
 /// These tools can be invoked by MCP clients to perform various operations.
 /// </summary>
+
+[McpServerToolType]
 internal class RandomNumberTools
 {
     [McpServerTool]
