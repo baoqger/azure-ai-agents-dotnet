@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicAgent", "BasicAgent\BasicAgent.csproj", "{31081CB4-B579-4E14-AFF7-CBACA083F0EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentRemoteMCPTool", "AgentRemoteMCPTool\AgentRemoteMCPTool.csproj", "{BC1CC81C-7EE1-4CD6-9D6F-B1ADBDB1AB5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{31081CB4-B579-4E14-AFF7-CBACA083F0EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31081CB4-B579-4E14-AFF7-CBACA083F0EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31081CB4-B579-4E14-AFF7-CBACA083F0EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC1CC81C-7EE1-4CD6-9D6F-B1ADBDB1AB5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1CC81C-7EE1-4CD6-9D6F-B1ADBDB1AB5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1CC81C-7EE1-4CD6-9D6F-B1ADBDB1AB5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1CC81C-7EE1-4CD6-9D6F-B1ADBDB1AB5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
