@@ -39,6 +39,8 @@ foreach (McpClientTool tool in tools)
 }
 Console.WriteLine();
 
+
+
 // Conversational loop that can utilize the tools via prompts.
 List<ChatMessage> messages = [];
 while (true)

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniMCPClient", "MiniMCPCli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniMCPServer", "MiniMCPServer\MiniMCPServer.csproj", "{DEBC2CF5-7993-4168-9351-3E1E32738DE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKBasic", "SKBasic\SKBasic.csproj", "{27AAFBB7-FAB9-4921-8FD5-D39F4943F2A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DEBC2CF5-7993-4168-9351-3E1E32738DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEBC2CF5-7993-4168-9351-3E1E32738DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEBC2CF5-7993-4168-9351-3E1E32738DE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27AAFBB7-FAB9-4921-8FD5-D39F4943F2A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27AAFBB7-FAB9-4921-8FD5-D39F4943F2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27AAFBB7-FAB9-4921-8FD5-D39F4943F2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27AAFBB7-FAB9-4921-8FD5-D39F4943F2A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
