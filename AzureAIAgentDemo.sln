@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniMCPServer", "MiniMCPSer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKBasic", "SKBasic\SKBasic.csproj", "{27AAFBB7-FAB9-4921-8FD5-D39F4943F2A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKPlugins", "SKPlugins\SKPlugins.csproj", "{CA6B86D5-E637-43C3-903A-FFD7C90B27F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{27AAFBB7-FAB9-4921-8FD5-D39F4943F2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27AAFBB7-FAB9-4921-8FD5-D39F4943F2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27AAFBB7-FAB9-4921-8FD5-D39F4943F2A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA6B86D5-E637-43C3-903A-FFD7C90B27F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA6B86D5-E637-43C3-903A-FFD7C90B27F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA6B86D5-E637-43C3-903A-FFD7C90B27F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA6B86D5-E637-43C3-903A-FFD7C90B27F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

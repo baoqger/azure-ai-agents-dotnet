@@ -19,7 +19,7 @@ var builder = Kernel.CreateBuilder().AddAzureOpenAIChatCompletion(modelId, endpo
 
 
 // Add enterprise components
-builder.Services.AddLogging(services => services.AddConsole().SetMinimumLevel(LogLevel.Trace));
+// builder.Services.AddLogging(services => services.AddConsole().SetMinimumLevel(LogLevel.Trace));
 
 
 // Build the kernel
