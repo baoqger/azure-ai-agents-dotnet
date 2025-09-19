@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKPlugins", "SKPlugins\SKPl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKFilter", "SKFilter\SKFilter.csproj", "{557610BC-6766-47AE-B108-3B08BCE10B7B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKDevOpsAgent", "SKDevOpsAgent\SKDevOpsAgent.csproj", "{506D6493-5F51-4E24-A231-1F3DFA33986E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{557610BC-6766-47AE-B108-3B08BCE10B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{557610BC-6766-47AE-B108-3B08BCE10B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{557610BC-6766-47AE-B108-3B08BCE10B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{506D6493-5F51-4E24-A231-1F3DFA33986E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{506D6493-5F51-4E24-A231-1F3DFA33986E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{506D6493-5F51-4E24-A231-1F3DFA33986E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{506D6493-5F51-4E24-A231-1F3DFA33986E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
