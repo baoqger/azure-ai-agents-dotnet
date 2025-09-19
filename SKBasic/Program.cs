@@ -15,7 +15,9 @@ var apiKey = Environment.GetEnvironmentVariable("API_KEY");
 
 
 // Create a kernel with Azure OpenAI chat completion
-var builder = Kernel.CreateBuilder().AddAzureOpenAIChatCompletion(modelId, endpoint, apiKey);
+var builder = Kernel.CreateBuilder();
+builder.AddAzureOpenAIChatCompletion(modelId, endpoint, apiKey);
+builder.Services.AddAzureOpenAIChatCompletion(modelId, endpoint, apiKey);
 
 
 // Add enterprise components
