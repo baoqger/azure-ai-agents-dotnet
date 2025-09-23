@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKDevOpsAgent", "SKDevOpsAg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKPrompt", "SKPrompt\SKPrompt.csproj", "{0342D16B-98EC-48C1-86BF-4630671C6196}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKChatAgent", "SKChatAgent\SKChatAgent.csproj", "{05A6C1FE-9D06-46EB-8985-140E7DC01F2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{0342D16B-98EC-48C1-86BF-4630671C6196}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0342D16B-98EC-48C1-86BF-4630671C6196}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0342D16B-98EC-48C1-86BF-4630671C6196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05A6C1FE-9D06-46EB-8985-140E7DC01F2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A6C1FE-9D06-46EB-8985-140E7DC01F2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A6C1FE-9D06-46EB-8985-140E7DC01F2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A6C1FE-9D06-46EB-8985-140E7DC01F2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
