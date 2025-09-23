@@ -5,4 +5,4 @@ dotnet user-secrets set "AzureOpenAISettings:ChatModelDeployment" "gpt-4o"
 
 # GitHub
 dotnet user-secrets set "GitHubSettings:BaseUrl" "https://api.github.com"
-dotnet user-secrets set "GitHubSettings:Token" "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"
+dotnet user-secrets set "GitHubSettings:Token" "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"

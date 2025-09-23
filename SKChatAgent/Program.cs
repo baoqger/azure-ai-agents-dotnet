@@ -44,9 +44,9 @@ public static class Program
 
                         Use the current date and time to provide up-to-date details or time-sensitive responses.
 
-                        The repository you are querying is a public repository with the following name: {{$repository}}
+                        The repository you are querying is a public repository with the following name: semantic-kernel
 
-                        The repository is maintained by the organization: {{$organization}}.
+                        The repository is maintained by the organization: microsoft.
 
                         The current date and time is: {{$now}}. 
                         """,
@@ -54,8 +54,7 @@ public static class Program
                 Arguments =
                     new KernelArguments(new AzureOpenAIPromptExecutionSettings() { FunctionChoiceBehavior = FunctionChoiceBehavior.Auto() })
                     {
-                        { "organization", "microsoft" },
-                        { "repository", "semantic-kernel" }
+                        { "now", $"{DateTime.Now.ToShortDateString()} {DateTime.Now.ToShortTimeString()}" }
                     }
             };
 
